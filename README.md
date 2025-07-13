@@ -14,6 +14,10 @@ A simple and user friendly cross-platform desktop application built with Rust an
 
 This application provides a straightforward graphical interface to retrieve the embedded Windows product key from your system. It supports both Windows and Linux, adapting its key recovery mechanism to the underlying operating system.
 
+## Project Website
+
+Visit the official project website: [https://keyrecovery.lovable.app/](https://keyrecovery.lovable.app/)
+
 ## Features
 
 *   **Cross-Platform:** Works seamlessly on Windows and Linux.
