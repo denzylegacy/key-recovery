@@ -1,0 +1,16 @@
+[package]
+name = "key-recovery"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.86"
+eframe = "0.28.0"
+egui = "0.28.0"
+webbrowser = "0.8.0"
+
+[target.'cfg(windows)'.dependencies]
+wmi = "0.15.1"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+regex = "1.10.5"
